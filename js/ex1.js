@@ -9,12 +9,12 @@ if (units <=30)
     console.log(`Hello ${name}`);
     console.log(`Your academic standing is freshman`);
 }
-if (units <=60)
+if (units > 30 && units <=60)
 {
     console.log(`Hello ${name}`);
     console.log(`Your academic standing is sophmore`);
 }
-if (units <=90)
+if (units > 60 && units <=90)
 {
     console.log(`Hello ${name}`);
     console.log(`Your academic standing is junior`);

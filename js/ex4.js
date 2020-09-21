@@ -7,14 +7,13 @@ while (number <4 && ourpassword != guess)
     number++;
 }
 
-if (number=4 && guess != "secret")
+if (guess != "secret")
 {
-    number--;
-    console.log(`You failed to enter your password after ${number} attempts`);
+    console.log(`You failed to enter your password after 3 attempts`);
 }
 if (guess == "secret")
 {
-    number--;
+    number=number-1;
     console.log(`You entered the correct password after ${number} attempts`);
 }
 
