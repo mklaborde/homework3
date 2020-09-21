@@ -1,0 +1,5 @@
+let number=Number(prompt("Please enter a number:"));
+for(i=0;i<=10;i++)
+{
+    console.log(`${number} * ${i} = ${number*i}`);
+}
